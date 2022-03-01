@@ -11,8 +11,8 @@ const Index = () => (
     config={{
       clientID: "3dyoqOlfQ6Edbdfhm68h7JVkcxUa",
       serverOrigin: "https://api.asgardeo.io/t/wso2test1234",
-      signInRedirectURL: "http://localhost:5000",
-      signOutRedirectURL: "http://localhost:5000",
+      signInRedirectURL: "https://samplecrud.azurewebsites.net",
+      signOutRedirectURL: "https://samplecrud.azurewebsites.net",
       scope: ["openid", "profile"],
     }}
   >
